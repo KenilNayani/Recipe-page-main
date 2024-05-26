@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:  hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width:651px) and (max-width:1440px) {
+    *{
+        font-size: 16px;
+    }
+    .card{
+        height: 80%;
+        width: 45%;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+    .card img{
+        border-radius: 15px;
+    }
+    .card hr{
+        width: 100%;
+    }
+}
+@media (min-width:561px) and (max-width:650px) {
+    .card{
+        height: 80%;
+        width: 55%;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+    .card img{
+        border-radius: 15px;
+    }
+    .card hr{
+        width: 100%;
+    }
+}
+@media  (min-width:401px) and (max-width:560px) {
+    .card{
+        height: 80%;
+        width: 65%;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+    .card img{
+        border-radius: 15px;
+    }
+    .card hr{
+        width: 100%;
+    }
+}
+@media  (min-width:275px) and (max-width:400px) {
+    .card{
+        height: 80%;
+        width: 80%;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+        scroll-behavior: auto;
+    }
+    .card img{
+        border-radius: 15px;
+    }
+    .card hr{
+        width: 100%;
+    }
+
+}
+.card h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.card p{
+    font-size: 10px;
+    font-weight: 700;
+    color: hsl(30, 10%, 34%);
+}
+
+.card .prep{
+    padding: 13px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+}
+
+li{
+    list-style-position: inside;
+    margin-left: 5px;
+    padding: 5px;
+    color: hsl(30, 10%, 34%);
+}
+span{
+    color: hsl(0, 4%, 27%);
+    font-weight: bolder;
+}
+h4{
+    padding: 5px;
+    color: hsl(332, 51%, 32%);
+}
+li::marker {
+    color: hsl(332, 51%, 32%);
+}
+h3{
+    font-weight: 700;
+    font-size: 1.55rem;
+    color: hsl(14, 45%, 36%);
+}
+.ing{
+    font-size: 13.5px;
+    color: hsl(30, 10%, 34%);
+}
+.ing::marker{
+    color: hsl(14, 45%, 36%);
+}
+hr{
+    width: 30vw;
+    color: hsl(30, 18%, 87%);
+}
+#tbl{
+    font-size: 11px;
+    font-weight: 600;
+}
+.item{
+    padding-left: 3.2rem;
+    display: grid;   
+    grid-template-columns: 1fr 1fr; 
+    line-height: 1.5;
+
+}
+.nutrilist{
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+}
+.nutrilist:last-of-type{
+    border-bottom: none;
+}
+.Nutritable p{
+    font-size: 16px;
+}
